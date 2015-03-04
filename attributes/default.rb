@@ -16,8 +16,8 @@
 # limitations under the License.
 #
 
-
 default['resolver']['search'] = node['domain']
 default['resolver']['nameservers'] = []
 default['resolver']['options'] = {}
+default['resolver']['sortlist'] = nil
 default['resolver']['server_role'] = 'nameserver'
